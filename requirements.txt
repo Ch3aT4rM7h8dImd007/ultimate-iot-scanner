@@ -1,0 +1,30 @@
+# ============================================
+# Ultimate IoT Device Scanner Dependencies
+# ============================================
+
+# HTTP requests
+requests>=2.25.0,<3.0.0
+
+# Network scanning
+socket
+ipaddress
+
+# SSL warnings disable
+urllib3>=1.26.0
+
+# Concurrent processing
+concurrent-futures>=3.1.1
+
+# JSON handling
+simplejson>=3.17.0
+
+# Color output (optional)
+colorama>=0.4.4
+
+# Progress bars (optional)
+tqdm>=4.60.0
+
+# Note: The following are system tools needed:
+# - masscan (for large network scanning)
+# - nmap (optional, for detailed scanning)
+# Install with: sudo apt install masscan nmap
