@@ -1,0 +1,237 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+*.whl
+*.tgz
+*.tar.gz
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+env/
+ENV/
+.env
+.venv
+virtualenv/
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.~*
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+*.temp
+
+# ============================================
+# Scanner Results
+# ============================================
+scan_master_report.json
+scan_report_*.txt
+scan_report_*.json
+masscan_*.json
+masscan_*.txt
+device_scan_*/
+iot_scan_*/
+camera_scan_*/
+printer_scan_*/
+router_scan_*/
+
+# ============================================
+# Reports & Outputs
+# ============================================
+*.log
+*.csv
+*.xlsx
+results/
+reports/
+output/
+
+# ============================================
+# Sensitive Data
+# ============================================
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+.env.local
+.env.*.local
+credentials
+secrets
+*.secret
+passwords.txt
+creds.txt
+
+# ============================================
+# Masscan Output
+# ============================================
+masscan_*.json
+masscan_*.txt
+masscan_*.csv
+scan_*.json
+
+# ============================================
+# OS Specific
+# ============================================
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+*.dmp
+core.*
+
+# ============================================
+# Linux Specific
+# ============================================
+.*.swp
+.*.swo
+.*~ 
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Backup Files
+# ============================================
+*.backup
+*.old
+*.orig
+*.rej
+*.patch
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# Coverage Reports
+# ============================================
+.coverage
+.coverage.*
+htmlcov/
+.coverage_report/
+.pytest_cache/
+.tox/
+
+# ============================================
+# MyPy
+# ============================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# Pyre type checker
+# ============================================
+.pyre/
+
+# ============================================
+# pytype static type analyzer
+# ============================================
+.pytype/
+
+# ============================================
+# Cython debug symbols
+# ============================================
+cython_debug/
+
+# ============================================
+# Profiling data
+# ============================================
+.prof
+*.prof
+
+# ============================================
+# Doxygen
+# ============================================
+doxygen/
+doc/html/
+doc/latex/
+
+# ============================================
+# Sphinx documentation
+# ============================================
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ============================================
+# Package Manager
+# ============================================
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+poetry.lock
+Pipfile.lock
+
+# ============================================
+# Docker
+# ============================================
+Dockerfile
+docker-compose.yml
+.dockerignore
+*.docker
+
+# ============================================
+# GitHub
+# ============================================
+.github/
+*.github
+
+# ============================================
+# Network Scanner Temp Files
+# ============================================
+nmap_*.xml
+nmap_*.gnmap
+nmap_*.nmap
+masscan_*.json
+*.pcap
+*.pcapng
